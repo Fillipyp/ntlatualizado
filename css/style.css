@@ -1,0 +1,348 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(39, 39, 38);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #38a3a5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #38a3a5;
+}
+
+.carregar {
+  margin: auto;
+  height: 100%;
+  display: block;
+  width: 50%;
+  padding: 200px;
+  /* margin-top: 5cm;
+  margin-left: 600px;
+  margin-right: 10cm; */
+}
+
+.progress {
+  height: 300px;
+  background-color: transparent;
+}
+
+.progress>svg {
+  height: 100%;
+  display: block;
+}
+
+:root{ 
+  --verde: #38a3a5;
+}
+body {
+  background-image: linear-gradient(to right, black, rgb(34, 34, 37));
+  overflow-x: hidden;
+}
+h1,
+h2 {
+  color: #e1e1e6;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.nomeempresa img{
+  height: 50px; width: 130px;
+}
+
+#proximasessao {
+  animation: seta 800ms steps(40) infinite normal;
+}
+
+.linha {
+  margin-bottom: 25px;
+  border-top: 3px solid #00fbff;
+  width: 60px;
+}
+
+p {
+  font-size: 18px;
+  color: #a8a8b3;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.bg_video {
+  position: absolute;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.slogan {
+  font-family: 'Merriweather', serif;
+  color: white;
+  font-size: 80px;
+  
+}
+/*inicio servicos*/
+@media (min-width: 1000px) {
+  .marketing {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+}
+
+@keyframes seta {
+  from {
+    height: 40px;
+    width: 40px;
+  }
+  to {
+    height: 43px;
+    width: 43px;
+  }
+}
+@media (min-width: 1000px) {
+  .line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+      typing 2.5s steps(40) 1s normal both;
+
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 10em;
+
+    }
+  }
+  @keyframes blinkCursor {
+    from {
+      border-right-color: rgba(129, 129, 129, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+}
+
+#proximasessao {
+  animation: seta 1000ms steps(40) infinite normal;
+  animation-delay:4s;
+  opacity: 0;
+
+}
+@keyframes seta {
+  from {
+     height: 40px;
+    width: 40px;
+    opacity: 0;
+  }
+  to {
+     height: 43px; 
+    width: 43px;
+    opacity: 1;
+  }
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.barradivisao-divider {
+  margin: 5rem 0;
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+  .featurette-heading-lado {
+    margin-top: 7rem;
+    text-align: right;
+  }
+}
+@media (min-width: 1000px) {
+  .servico1 {
+    margin-bottom: 150px;
+  }
+}
+
+.imagemservico {
+  /* width: 450px; */
+  height: 350px;
+  /* background-color: transparent; */
+  border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+  .imagemservico {
+    /* width: 340px; */
+    height: 300px;
+  }
+}
+
+.PARCERIAS  img{
+  filter: grayscale(80%);
+}
+
+.PARCERIAS  img:hover{
+  filter: grayscale(0%);
+transition: 0.5s ease-in;
+
+}
+/*contatos*/
+.titulo {
+  font-size: 40px;
+  line-height: 1;
+  /* margin-bottom: 1rem; */
+  text-align: center;
+  grid-column: 1 / 4;
+}
+.btn {
+  background-color: var(--verde);
+  
+  color: white;
+  font-size: 17px;
+}
+.btn:hover{
+  background-color: #4cbdbe;
+  color: white;
+}
+.form-control {
+  display: block;
+  background-color: transparent;
+  background: transparent;
+  color: var(--verde);
+  border-image-source: linear-gradient(to left, #38a3a5, #000);
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+}
+
+.form-control, textarea{
+    color: var(--verde) !important;
+    background-color: transparent !important;
+}
+.form-control{
+  font-size: 17px;
+}
+
+/*botoes rede social*/
+.social-media {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid;
+  margin: 0 25px;
+  position: relative;
+  transition: all 0.3s;
+  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0, 15);
+}
+.social-media img {
+  width: 23px;
+  height: 23px;
+}
+
+.social-media i {
+  font-size: 25px;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.social-media span {
+  position: absolute;
+  transform: translateY(-100px);
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: bolder;
+  transition: all 0.3s;
+}
+
+.social-media:nth-child(1) {
+  border-color: #38a3a5;
+  background-color: #38a3a5;
+}
+
+.social-media:nth-child(2) {
+  border-color: #38a3a5;
+  background-color: #38a3a5;
+}
+
+.social-media:nth-child(3) {
+  border-color: #38a3a5;
+  background-color: #38a3a5;
+}
+
+.social-media:hover {
+  border-radius: 5px;
+  padding: 16px 60px;
+  background-color: transparent;
+}
+
+@media(max-width:1000px){
+  .social-media:hover {
+  border-radius: 5px;
+  padding: 16px 40px;
+  background-color: transparent;
+}
+
+}
+.social-media:hover i {
+  transform: translateY(100px);
+}
+
+.social-media:hover span {
+  transform: translateY(0);
+}
+
+.social-media:nth-child(1):hover span {
+  color: #38a3a5;
+}
+.social-media:nth-child(1):hover img {
+  opacity: 0;
+}
+
+.social-media:nth-child(2):hover span {
+  color: #38a3a5;
+}
+.social-media:nth-child(2):hover img {
+  opacity: 0;
+}
+
+.social-media:nth-child(3):hover span {
+  color: #38a3a5;
+}
+.social-media:nth-child(3):hover img {
+  opacity: 0;
+}
+/*final botoes redes sociais*/
+
+
+.footer {
+  background-color: #121214;
+  color: rgb(221, 221, 221);
+  font-size: 14px;
+}
+
+.footer, p{
+  font-size: 15px;
+}
+.direitos  {
+  font-size: 12px;
+}
