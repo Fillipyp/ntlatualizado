@@ -138,88 +138,110 @@
                     <div class="col-md-12">
                         <div class="card card-user">
                             <div class="card-header">
-                                <h5 class="card-title">Ponto eletronico</h5>
-                            </div>
+                                <h5 class="card-title text-center">Ponto eletronico</h5>
+                                <h6 class="text-center">
+                                    <script>
+                                        var myVar = setInterval(myTimer, 1000);
+
+                                        function myTimer() {
+                                            var d = new Date(),
+                                                displayDate;
+                                            if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+                                                displayDate = d.toLocaleTimeString('pt-BR');
+                                            } else {
+                                                displayDate = d.toLocaleTimeString('pt-BR', {
+                                                    timeZone: 'America/Sao_Paulo'
+                                                });
+                                            }
+                                            document.getElementById("hora").innerHTML = displayDate;
+                                        }
+                                    </script>
+                                    <div id="hora"></div>
+                                </h6>
+
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col col-xs-4">
                                         <!-- <div class="card card-stats"> -->
-                                            <div class="card-body ">
-                                                <div class="row">
-                                                    <button type="button" class="btn" style="height: 180px;  background-color:#38a3a5; border-radius: 15px;">
-                                                        <i class="fa fa-sign-in"></i><br>Marcar entrada
-                                                    </button>
-                                                </div>
+                                        <div class="card-body ">
+                                            <div class="row">
+                                                <button type="button" class="btn"
+                                                    style="height: 170px;  background-color:#38a3a5; border-radius: 15px;">
+                                                    <i class="fa fa-sign-in"></i><br>Marcar entrada
+                                                </button>
                                             </div>
-                                           
-                                        <!-- </div> -->
-                                    </div>
-                                    <div class="col col-xs-4">
-                                        <!-- <div class="card card-stats"> -->
-                                            <div class="card-body ">
-                                                <div class="row">
-                                                    <button type="button" class="btn " style="height: 180px; background-color:#38a3a5;  border-radius: 15px;">
-                                                        <i class="fa fa-sign-in"></i><br>Inicio almoço
-                                                    </button>
-                                                </div>
-                                            </div>
-                                           
+                                        </div>
+
                                         <!-- </div> -->
                                     </div>
                                     <div class="col col-xs-4">
                                         <!-- <div class="card card-stats"> -->
                                         <div class="card-body ">
                                             <div class="row">
-                                                <button type="button" class="btn " style="height: 180px; background-color:#38a3a5;  border-radius: 15px;">
+                                                <button type="button" class="btn marcacao"
+                                                    style="height: 170px; background-color:#38a3a5;  border-radius: 15px;">
                                                     <i class="fa fa-sign-in"></i><br>Inicio almoço
                                                 </button>
                                             </div>
                                         </div>
-                                    
+
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="col col-xs-4">
+                                        <!-- <div class="card card-stats"> -->
+                                        <div class="card-body ">
+                                            <div class="row">
+                                                <button type="button" class="btn "
+                                                    style="height: 170px; background-color:#38a3a5;  border-radius: 15px;">
+                                                    <i class="fa fa-sign-in"></i><br>Inicio almoço
+                                                </button>
+                                            </div>
+                                        </div>
+
                                         <!-- </div> -->
                                     </div>
                                 </div>
-                    <div class="row">
-                        <div class="col col-xs-4">
-                            <!-- <div class="card card-stats"> -->
-                            <div class="card-body ">
                                 <div class="row">
-                                    <button type="button" class="btn"
-                                        style="height: 180px;  background-color:#38a3a5; border-radius: 15px;">
-                                        <i class="fa fa-sign-in"></i><br>Marcar entrada
-                                    </button>
+                                    <div class="col col-xs-4">
+                                        <!-- <div class="card card-stats"> -->
+                                        <div class="card-body ">
+                                            <div class="row">
+                                                <button type="button" class="btn"
+                                                    style="height: 170px;  background-color:#38a3a5; border-radius: 15px;">
+                                                    <i class="fa fa-sign-in"></i><br>Marcar entrada
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="col col-xs-4">
+                                        <!-- <div class="card card-stats"> -->
+                                        <div class="card-body ">
+                                            <div class="row">
+                                                <button type="button" class="btn "
+                                                    style="height: 170px; background-color:#38a3a5;  border-radius: 15px;">
+                                                    <i class="fa fa-sign-in"></i><br>Inicio almoço
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <!-- </div> -->
+                                    </div>
+                                    <div class="col col-xs-4">
+                                        <!-- <div class="card card-stats"> -->
+                                        <div class="card-body ">
+                                            <div class="row">
+                                                <button type="button" class="btn "
+                                                    style="height: 170px; background-color:#38a3a5;  border-radius: 15px;">
+                                                    <i class="fa fa-sign-in"></i><br>Inicio almoço
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <!-- </div> -->
+                                    </div>
                                 </div>
-                            </div>
-                    
-                            <!-- </div> -->
-                        </div>
-                        <div class="col col-xs-4">
-                            <!-- <div class="card card-stats"> -->
-                            <div class="card-body ">
-                                <div class="row">
-                                    <button type="button" class="btn "
-                                        style="height: 180px; background-color:#38a3a5;  border-radius: 15px;">
-                                        <i class="fa fa-sign-in"></i><br>Inicio almoço
-                                    </button>
-                                </div>
-                            </div>
-                    
-                            <!-- </div> -->
-                        </div>
-                        <div class="col col-xs-4">
-                            <!-- <div class="card card-stats"> -->
-                            <div class="card-body ">
-                                <div class="row">
-                                    <button type="button" class="btn "
-                                        style="height: 180px; background-color:#38a3a5;  border-radius: 15px;">
-                                        <i class="fa fa-sign-in"></i><br>Inicio almoço
-                                    </button>
-                                </div>
-                            </div>
-                    
-                            <!-- </div> -->
-                        </div>
-                    </div>
 
                             </div>
                         </div>
