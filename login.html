@@ -2,127 +2,128 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>NTL - NOVA TECNOLOGIA</title>
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
-        name="viewport" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/login.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>NTL - LOGIN</title>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+    name="viewport" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/login.css" />
+  <link rel="stylesheet" href="css/geral.css" />
+  <link rel="shortcut icon" href="img/favicon (1).ico " />
 </head>
 
 <body class="index-page sidebar-collapse">
     <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
-        <div class="container">
-            <div class="navbar-translate">
-                <a class="navbar-brand nomeempresa" href="home.html" rel="tooltip" title="" data-placement="bottom">
-                    <img src="img/logoBranca.png">
-                    <br />
-                </a>
-                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end menu" id="navigation">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="home.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="login.html">LOGIN</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <div class="navbar-translate">
+          <a class="navbar-brand" style="font-size: 40px; font-family: 'Raleway'" rel="tooltip" title=""
+            data-placement="bottom">
+            NTL <br />
+          </a>
+          <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar bar1"></span>
+            <span class="navbar-toggler-bar bar2"></span>
+            <span class="navbar-toggler-bar bar3"></span>
+          </button>
         </div>
+        <div class="collapse navbar-collapse justify-content-end menu" id="navigation">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="home.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="login.html">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
+
     <section>
-        <div class="page-header ">
-            <div class="content-center">
-                <div class="container">
-                    <div class="mt-5">
-                        <section class="page-section" id="contato">
-                            <div class="">
-                                <h2 class="section-heading titulo pb-4">Área do funcionário</h2>
-                            </div>
-                            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                                <div class="row align-items-stretch ">
-                                    <div class="form-group">
-                                        <label for="">Login:</label>
-                                        <input class="form-control" id="name" type="text" placeholder="Digite seu login"
-                                            required="required" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                    <div class="form-grou">
-                                        <label for="">Senha:</label>
-                                        <input class="form-control" id="senha" type="password"
-                                            placeholder="Digite sua senha" required="required" />
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-                                <div class="text-center">
-                                    <div id="success"></div>
-                                    <button class="btn" id="sendMessageButton" >Entrar</button>
-                                </div>
-                            </form>
+      <div class="page-header">
+        <div class="content-center">
+          <div class="container">
+            <div class="mt-5">
+              <section class="page-section" id="contato">
+                <div class="">
+                  <h2 class="section-heading titulo pb-4">Área do cliente</h2>
+                </div>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                  <div class="row align-items-stretch">
+                    <div class="form-group">
+                      <label for="">Login:</label>
+                      <input class="form-control" id="name" type="text" placeholder="Digite seu login"
+                        required="required" />
+                      <p class="help-block text-danger"></p>
                     </div>
-                </div>
+                    <div class="form-grou">
+                      <label for="">Senha:</label>
+                      <input class="form-control" id="senha" type="password" placeholder="Digite sua senha"
+                        required="required" />
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div id="success"></div>
+                    <button class="btn" id="sendMessageButton">Entrar</button>
+                  </div>
+                </form>
+              </section>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-    <section class="footer">
-        <footer class="container  footer p-5">
-            <div class="row col col-lg-12">
-                <div class="col-6 col-md">
-                    <img class="bd-placeholder-img" src="img/logoBranca.png" style="width:100px;">
-                    <small class="d-block mb-3 text-muted">&copy; 1980-2021</small>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Redes Sociais</h5>
-                    <ul class="list-unstyled text-small">
-                        <li><a class="link-secondary" href="https://pt-br.facebook.com/" target="_blank">Facebook</a>
-                        </li>
-                        <li><a class="link-secondary" href="https://www.instagram.com/?hl=pt-br"
-                                target="_blank">Instragram</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md">
-                    <h5>Localização e Contato</h5>
-                    <ul class="list-unstyled text-small">
-                        <p>Rio de Janeiro</p>
-                        <p>Rua Visconde de Inhaúma, 38
-                            7º andar - Centro
-                            Rio de Janeiro - RJ
-                            (21) 3523-7300
-                            (21) 2233-6226
-                        </p>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-        <div class="text-center direitos">
-            <div class="text-center p-3">
-                &copy;NTL, Todos os direitos reservados, 1999-
-                <script language="javascript" type="text/javascript">
-                    now = new Date();
-                    document.write(now.getFullYear());
-                </script>.
-            </div>
-        </div>
-    </section>
+
+ <section class="footer mt-5">
+  <footer class="container  footer p-5">
+    <div class="row col col-lg-12">
+      <div class="col-6 col-md">
+        <img class="bd-placeholder-img" src="img/logoBranca.png" style="width:100px;">
+        <small class="d-block mb-3 text-muted">&copy; 1980-2021</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Redes Sociais</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="https://pt-br.facebook.com/" target="_blank">Facebook</a>
+          </li>
+          <li><a class="link-secondary" href="https://www.instagram.com/?hl=pt-br" target="_blank">Instragram</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Localização e Contato</h5>
+        <ul class="">
+          <p>Rio de Janeiro</p>
+          <p>Rua Visconde de Inhaúma, 38
+            7º andar - Centro
+            Rio de Janeiro - RJ
+            (21) 3523-7300
+            (21) 2233-6226'
+          </p>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="text-center direitos">
+    <div class="text-center p-3">
+      &copy;NTL, Todos os direitos reservados, 1999-
+      <script language="javascript" type="text/javascript">
+        now = new Date();
+        document.write(now.getFullYear());
+      </script>
+    </div>
+  </div>
+</section>
 
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/geral.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/slide.js"></script>
     <script type="text/javascript" src="js/timeline.js"></script>
-    <!-- <script type="text/javascript" src="js/parallax.js"></script> -->
-
 </body>
 
 </html>
