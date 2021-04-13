@@ -201,6 +201,9 @@ a:link {
     /* width: 340px; */
     height: 300px;
   }
+  .tecnologia{
+    height: 300px;
+  }
 }
 
 .PARCERIAS  img{
