@@ -14,6 +14,23 @@
   background: #38a3a5;
 }
 
+.page-header {
+  /* background-color: black; */
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
 .carregar {
   margin: auto;
   height: 100%;
@@ -196,6 +213,7 @@ a:link {
 
 .tecnologia{
    height: 500px;
+    filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.250));
 }
 
 .evolucao{
