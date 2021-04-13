@@ -305,35 +305,35 @@ var typewriter = new Typewriter(maquinadeescrever, {
   loop: true,
 });
 
-typewriter
+ typewriter
   .start()
   .pauseFor(3500)
-  .typeString("Bem Vindo(a) à NTL.")
+  .typeString("Seja bem vindx à NTL")
   .pauseFor(2500)
-  .deleteChars(19)
+  .deleteChars(20)
   .pauseFor(1000)
   // .deleteAll()
-  .typeString("Isto é um teste,")
+  .typeString("a empresa de suporte que você confia.")
   .pauseFor(2500)
-  .deleteChars(16)
+  .deleteChars(37)
   .pauseFor(1000)
-  .typeString("isso é outro teste.")
+  .typeString("Peça e receba suporte de onde estiver.")
   .pauseFor(2500)
-  .deleteChars(19)
+  .deleteChars(38)
   .pauseFor(1000)
-  .typeString("Continue o tour com a seta")
+  .typeString("Arrasta pra baixo e saiba mais")
   .pauseFor(5000 * 60);
 
 var i = setInterval(function () {
   clearInterval(i);
   document.getElementById("loading").style.display = "none";
   document.getElementById("conteudo").style.display = "inline";
-}, 3000);
+}, 1000);
 
 window.onload = function onLoad() {
   var circle = new ProgressBar.Circle("#progress", {
     color: "#38a3a5",
-    duration: 3000,
+    duration: 1000,
     easing: "easeInOut",
   });
 
