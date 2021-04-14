@@ -204,7 +204,7 @@ a:link {
 
 .imagemservico {
   /* width: 450px; */
-  height: 350px;
+  height: 400px;
   /* background-color: transparent; */
   border-radius: 10px;
 }
@@ -222,7 +222,7 @@ a:link {
 
 @media (max-width: 1000px) {
   .imagemservico {
-    /* width: 340px; */
+    width: 450px;
     height: 300px;
   }
   .tecnologia{
@@ -315,18 +315,18 @@ transition: 0.5s ease-in;
 }
 
 .social-media:nth-child(1) {
-  border-color: #38a3a5;
-  background-color: #38a3a5;
+  border-color: #337c7e;
+  background-color: #1D1D20;
 }
 
 .social-media:nth-child(2) {
-  border-color: #38a3a5;
-  background-color: #38a3a5;
+  border-color: #337c7e;
+  background-color: #1D1D20;
 }
 
 .social-media:nth-child(3) {
-  border-color: #38a3a5;
-  background-color: #38a3a5;
+  border-color: #337c7e;
+  background-color: #1D1D20;
 }
 
 .social-media:hover {
