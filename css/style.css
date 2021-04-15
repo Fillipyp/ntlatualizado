@@ -67,6 +67,12 @@ h2 {
   font-size: 40px;
 }
 
+
+@media(max-width:1000px){
+  h1{
+    font-size: 30px;
+  }
+}
 .nomeempresa img{
   height: 50px; width: 130px;
 }
@@ -213,8 +219,16 @@ a:link {
 
 .tecnologia{
    height: 500px;
-    filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.250));
+   transition: 2s ease-in-out;
+   filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.250));
 }
+
+.tecnologia:hover{
+transition: 2s ease-out;
+filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
+
+}
+
 
 .evolucao{
   font-size: 60px;
@@ -226,20 +240,22 @@ a:link {
     height: 300px;
   }
   .tecnologia{
-   height: 250px;
+   height: 200px;
+   height: 200px;
   }
   .evolucao{
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 .PARCERIAS  img{
+  transition: 2s ease-in-out;
   filter: grayscale(80%);
 }
 
 .PARCERIAS  img:hover{
   filter: grayscale(0%);
-transition: 0.5s ease-in;
+transition: 1s ease-out;
 
 }
 /*contatos*/
