@@ -308,9 +308,9 @@ var typewriter = new Typewriter(maquinadeescrever, {
  typewriter
   .start()
   .pauseFor(3500)
-  .typeString("Seja bem vindx à NTL")
+  .typeString("Seja bem vindos à NTL")
   .pauseFor(2500)
-  .deleteChars(20)
+  .deleteChars(21)
   .pauseFor(1000)
   // .deleteAll()
   .typeString("a empresa de suporte que você confia.")
@@ -328,7 +328,7 @@ var i = setInterval(function () {
   clearInterval(i);
   document.getElementById("loading").style.display = "none";
   document.getElementById("conteudo").style.display = "inline";
-}, 1000);
+}, 1300);
 
 window.onload = function onLoad() {
   var circle = new ProgressBar.Circle("#progress", {
