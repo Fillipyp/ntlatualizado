@@ -1,16 +1,16 @@
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 10px;
 }
 
-::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: rgb(39, 39, 38);
 }
 
-::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background: #38a3a5;
 }
 
-::-webkit-scrollbar-thumb:hover {
+body::-webkit-scrollbar-thumb:hover {
   background: #38a3a5;
 }
 
@@ -19,7 +19,7 @@
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
-  max-height: 999px;
+  max-height: 700vh;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -84,8 +84,16 @@ h2 {
 .linha {
   margin-bottom: 25px;
   border-top: 3px solid #00fbff;
-  width: 60px;
+  width: 80px;
 }
+
+.linhaunidade{
+  margin-bottom: 20px;
+  border-bottom:3px solid #00fbff ;
+  width: 120px;
+
+}
+
 
 p {
   font-size: 18px;
@@ -258,6 +266,33 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
 transition: 1s ease-out;
 
 }
+
+.unidadesimg{
+  transition: 0.5s ease-in-out;
+  /* transform: 0.2s; */
+  /* filter: grayscale(0%); */
+  
+}
+.unidadesimg:hover{
+  transition: 0.5s ease-out;
+   transform: scale(1.1);
+  
+}
+
+.vermapa{
+   display:inline-block;
+   padding: 10px 20px;
+   font-size: 15px;
+   border: 1px solid #38a3a5;
+   color: #38a3a5;
+   transition: 0.7s ease-in-out;
+}
+
+.vermapa:hover{
+  background-color: #38a3a5;
+  color: #000;
+  transition: 0.7s ease-out;
+}
 /*contatos*/
 .titulo {
   font-size: 40px;
@@ -303,7 +338,7 @@ transition: 1s ease-out;
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  border: 2px solid;
+  border: 1px solid;
   margin: 0 25px;
   position: relative;
   transition: all 0.3s;
@@ -316,7 +351,7 @@ transition: 1s ease-out;
 }
 
 .social-media i {
-  font-size: 25px;
+  font-size: 40px;
   transition: all 0.3s;
   color: #fff;
 }
@@ -326,7 +361,6 @@ transition: 1s ease-out;
   transform: translateY(-100px);
   text-transform: uppercase;
   font-family: "Raleway";
-  font-weight: bolder;
   transition: all 0.3s;
 }
 
@@ -346,16 +380,16 @@ transition: 1s ease-out;
 }
 
 .social-media:hover {
-  border-radius: 5px;
+  border-radius: 1px;
   padding: 16px 60px;
-  background-color: transparent;
+  background-color: #38a3a5;
 }
 
 @media(max-width:1000px){
   .social-media:hover {
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 16px 40px;
-  background-color: transparent;
+  background-color: #38a3a5;
 }
 
 }
@@ -368,21 +402,24 @@ transition: 1s ease-out;
 }
 
 .social-media:nth-child(1):hover span {
-  color: #38a3a5;
+  color: #000;
+  font-size: 15px;
 }
 .social-media:nth-child(1):hover img {
   opacity: 0;
 }
 
 .social-media:nth-child(2):hover span {
-  color: #38a3a5;
+  color: #000;
+   font-size: 15px;
 }
 .social-media:nth-child(2):hover img {
   opacity: 0;
 }
 
 .social-media:nth-child(3):hover span {
-  color: #38a3a5;
+  color: #000;
+   font-size: 15px;
 }
 .social-media:nth-child(3):hover img {
   opacity: 0;
@@ -402,3 +439,6 @@ transition: 1s ease-out;
 .direitos  {
   font-size: 12px;
 }
+
+
+
