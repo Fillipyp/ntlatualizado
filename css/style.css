@@ -192,15 +192,21 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
     margin-bottom: 100px;
   }
   h1,h2{
+    font-size: 27px ;
+  }
+
+  .titulo{
     font-size: 27px !important;
+  }
+
+  .unidadesimg{
+    width: 150px;
   }
 
   .sobre{
     margin-top: 100px;
   }
-  .vermapa{
-    margin: 10px;
-  }
+ 
 }
 /*MIN WIDTH DO SITE*/
 @media(min-width:1000px){
