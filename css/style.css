@@ -239,6 +239,9 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
     margin-top: 7rem;
     text-align: right;
   }
+  .empresasparceiras{
+   margin: 20px;
+  }
   .line {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     color: white;
@@ -270,7 +273,7 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
   }
 
   .subtitulo{
-    font-size: 60px;
+    font-size: 50px;
   }
 
 }
@@ -313,14 +316,7 @@ transition: 1s ease-out;
   color: #000;
   transition: 0.7s ease-out;
 }
-/*contatos*/
-.titulo {
-  font-size: 40px;
-  line-height: 1;
-  /* margin-bottom: 1rem; */
-  text-align: center;
-  grid-column: 1 / 4;
-}
+
 .btn {
   background-color: var(--verde);
   
