@@ -14,44 +14,6 @@ body::-webkit-scrollbar-thumb:hover {
   background: #38a3a5;
 }
 
-.page-header {
-  /* background-color: black; */
-  background-position: center center;
-  background-size: cover;
-  min-height: 100vh;
-  max-height: 700vh;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  z-index: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-.carregar {
-  margin: auto;
-  height: 100%;
-  display: block;
-  width: 50%;
-  padding: 200px;
-  /* margin-top: 5cm;
-  margin-left: 600px;
-  margin-right: 10cm; */
-}
-
-.progress {
-  height: 300px;
-  background-color: transparent;
-}
-
-.progress>svg {
-  height: 100%;
-  display: block;
-}
-
 :root{ 
   --verde: #38a3a5;
 }
@@ -67,12 +29,40 @@ h2 {
   font-size: 40px;
 }
 
-
-@media(max-width:1000px){
-  h1{
-    font-size: 30px;
-  }
+.page-header {
+  /* background-color: black; */
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 700vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.carregar {
+  margin: auto;
+  height: 100%;
+  display: block;
+  width: 50%;
+  padding: 200px;
+ 
+}
+
+.progress {
+  height: 300px;
+  background-color: transparent;
+}
+
+.progress>svg {
+  height: 100%;
+  display: block;
+}
+
 .nomeempresa img{
   height: 50px; width: 130px;
 }
@@ -83,13 +73,13 @@ h2 {
 
 .linha {
   margin-bottom: 25px;
-  border-top: 3px solid #00fbff;
+  border-top: 3px solid #38a3a5;
   width: 80px;
 }
 
 .linhaunidade{
   margin-bottom: 20px;
-  border-bottom:3px solid #00fbff ;
+  border-bottom:3px solid #38a3a5 ;
   width: 120px;
 
 }
@@ -118,12 +108,6 @@ a:link {
   
 }
 /*inicio servicos*/
-@media (min-width: 1000px) {
-  .marketing {
-    margin-top: 150px;
-    margin-bottom: 150px;
-  }
-}
 
 @keyframes seta {
   from {
@@ -133,37 +117,6 @@ a:link {
   to {
     height: 43px;
     width: 43px;
-  }
-}
-@media (min-width: 1000px) {
-  .line {
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
-    color: white;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .typing-animation {
-    animation: blinkCursor 500ms steps(40) infinite normal,
-      typing 2.5s steps(40) 1s normal both;
-
-  }
-
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 10em;
-
-    }
-  }
-  @keyframes blinkCursor {
-    from {
-      border-right-color: rgba(129, 129, 129, 0.75);
-    }
-    to {
-      border-right-color: transparent;
-    }
   }
 }
 
@@ -195,35 +148,14 @@ a:link {
   margin: 5rem 0;
 }
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-  .featurette-heading-lado {
-    margin-top: 7rem;
-    text-align: right;
-  }
-}
-@media (min-width: 1000px) {
-  .servico1 {
-    margin-bottom: 150px;
-    margin-top: 100px;
-  }
-}
-
 .servico1{
   margin-top: 50px;
 }
 
-
 .imagemservico {
-  /* width: 450px; */
   height: 400px;
-  /* background-color: transparent; */
   border-radius: 10px;
 }
-
-
 
 .tecnologia{
    height: 500px;
@@ -237,11 +169,11 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
 
 }
 
-
 .evolucao{
   font-size: 60px;
 }
 
+/*MAX WIDTH DO SITE*/
 @media (max-width: 1000px) {
   .imagemservico {
     width: 450px;
@@ -254,6 +186,87 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
   .evolucao{
     font-size: 30px;
   }
+
+  .PARCERIAS{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  h1,h2{
+    font-size: 27px !important;
+  }
+
+  .sobre{
+    margin-top: 100px;
+  }
+  .vermapa{
+    margin: 10px;
+  }
+}
+/*MIN WIDTH DO SITE*/
+@media(min-width:1000px){
+.botaologin{
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #38a3a5 !important;
+  border-radius: 4px;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  
+}
+.botaologin:hover{
+  background-color: #38a3a5 !important;
+   transition: 0.5s ease-out;
+   color: #000 !important;
+}
+ .marketing {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+   .servico1 {
+    margin-bottom: 150px;
+    margin-top: 100px;
+  }
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+  .featurette-heading-lado {
+    margin-top: 7rem;
+    text-align: right;
+  }
+  .line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+      typing 2.5s steps(40) 1s normal both;
+
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 10em;
+
+    }
+  }
+  @keyframes blinkCursor {
+    from {
+      border-right-color: rgba(129, 129, 129, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  .subtitulo{
+    font-size: 60px;
+  }
+
 }
 
 .PARCERIAS  img{
@@ -266,6 +279,7 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
 transition: 1s ease-out;
 
 }
+
 
 .unidadesimg{
   transition: 0.5s ease-in-out;
@@ -285,7 +299,7 @@ transition: 1s ease-out;
    font-size: 15px;
    border: 1px solid #38a3a5;
    color: #38a3a5;
-   transition: 0.7s ease-in-out;
+   transition: 1s ease-in-out;
 }
 
 .vermapa:hover{
@@ -439,6 +453,3 @@ transition: 1s ease-out;
 .direitos  {
   font-size: 12px;
 }
-
-
-
