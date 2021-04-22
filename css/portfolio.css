@@ -16,9 +16,7 @@ li {
 
 
 .titulo {
-  
-  font-size: 70px;
-  line-height: 1;
+  font-size: 60px;
   /* margin-bottom: 1rem; */
   text-align: center;
   grid-column: 1 / 4;
@@ -37,7 +35,7 @@ li {
     grid-template-columns: 100px 1fr;
     grid-gap: 10px;
   }
-  .animais-lista {
+  .portfolio-lista {
     grid-column: 1;
   }
   .faq-lista,
@@ -83,15 +81,17 @@ li {
   }
 }
 
-.animais h2 {
-  font-family: "IBM Plex Mono", monospace;
-  font-size: 18px;
+.portfolio h2 {
+  /* font-family: "IBM Plex Mono", monospace; */
+  font-size: 15px;
+  
   text-transform: uppercase;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 
 }
 
-.animais h2::before {
+.portfolio h2::before {
   content: "";
   display: inline-block;
   width: 40px;
@@ -100,41 +100,43 @@ li {
   background: var(--verde);
 }
 
-.animais p {
+.portfolio p {
   font-family: Helvetica, Arial;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
-.animais-lista {
+.portfolio-lista {
   border-radius: 10px;
   height: 400px;
   overflow-y: scroll;
   grid-column: 2;
 }
 
-.animais-lista li {
+.portfolio-lista li {
   cursor: pointer;
 }
 
-.animais-lista::-webkit-scrollbar {
+.portfolio-lista::-webkit-scrollbar {
   width: 18px;
+  /* height: 0%; */
 }
 
-.animais-lista::-webkit-scrollbar-thumb {
+.portfolio-lista::-webkit-scrollbar-thumb {
   background: var(--verde);
   border-left: 4px solid #121214;
   border-right: 4px solid #121214;
 }
 
-.animais-lista::-webkit-scrollbar-track {
+
+.portfolio-lista::-webkit-scrollbar-track {
   background: #121214;
 }
 
-.animais-descricao {
+.portfolio-descricao {
   grid-column: 3;
 }
 
-.animais-descricao section {
+.portfolio-descricao section {
   margin-bottom: 3rem;
 }
