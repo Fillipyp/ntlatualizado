@@ -1,3 +1,6 @@
+
+
+
 document.documentElement.className += ' js';
 
 
@@ -46,11 +49,6 @@ $(document).ready(function () {
 
   $(".navbar-collapse").click(function () {
 
-
-
-
-
-    
     setTimeout(function () {
       if (pk.misc.navbar_menu_visible == 1) {
         $("html").removeClass("nav-open");
@@ -63,6 +61,7 @@ $(document).ready(function () {
     }, 550);
   });
 
+  
   // Change the collor of navbar collapse
   $("#navbarToggler")
     .on("show.bs.collapse", function () {
@@ -299,6 +298,9 @@ function hasScrolled() {
   lastScrollTop = st;
 }
 
+
+
+
 var maquinadeescrever = document.getElementById("maquinadeescrever");
 
 var typewriter = new Typewriter(maquinadeescrever, {
@@ -308,12 +310,13 @@ var typewriter = new Typewriter(maquinadeescrever, {
  typewriter
   .start()
   .pauseFor(3500)
-  .typeString("Seja bem vindos à NTL")
+  .typeString("Sejam bem vindos à NTL")
   .pauseFor(2500)
-  .deleteChars(21)
+  .deleteChars(22)
   .pauseFor(1000)
+  
   // .deleteAll()
-  .typeString("a empresa de suporte que você confia.")
+  .typeString("A empresa de suporte que você confia.")
   .pauseFor(2500)
   .deleteChars(37)
   .pauseFor(1000)
@@ -321,7 +324,7 @@ var typewriter = new Typewriter(maquinadeescrever, {
   .pauseFor(2500)
   .deleteChars(38)
   .pauseFor(1000)
-  .typeString("Arrasta pra baixo e saiba mais")
+  .typeString("Arraste para baixo e saiba mais")
   .pauseFor(5000 * 60);
 
 var i = setInterval(function () {
@@ -339,3 +342,11 @@ window.onload = function onLoad() {
 
   circle.animate(1);
 };
+
+
+
+// var mapa = document.getElementById("vermapa")
+//  mapa.addEventListener('click', function(){
+//    alert('exiba essa mensagem')(this.vermapa);
+//  })
+
