@@ -173,6 +173,36 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
   font-size: 60px;
 }
 
+.circle{
+  background-color: #38a3a5;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #38a3a5;
+  margin: 0 25px;
+}
+
+.pontospositivos{
+  margin-top: 30px;
+}
+
+.saibamais{
+  
+   display:inline-block;
+   padding: 10px 20px;
+   margin-top: 10px;
+   font-size: 15px;
+   border: 1px solid #38a3a5;
+   background-color: #38a3a5;
+   color: #000;
+   transition: 1s ease-in-out;
+}
+
+
 /*MAX WIDTH DO SITE*/
 @media (max-width: 1000px) {
     .slogan{
@@ -257,9 +287,9 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
     margin-top: 7rem;
     text-align: right;
   }
-  .empresasparceiras{
+  /* .empresasparceiras{
    margin: 40px;
-  }
+  } */
   .line {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
     color: white;
@@ -345,24 +375,7 @@ transition: 1s ease-out;
   background-color: #4cbdbe;
   color: white;
 }
-.form-control {
-  display: block;
-  background-color: transparent;
-  background: transparent;
-  color: var(--verde);
-  border-image-source: linear-gradient(to left, #38a3a5, #000);
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 2px;
-}
 
-.form-control, textarea{
-    color: var(--verde) !important;
-    background-color: transparent !important;
-}
-.form-control{
-  font-size: 17px;
-}
 
 /*botoes rede social*/
 .social-media {
