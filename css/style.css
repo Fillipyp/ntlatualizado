@@ -194,12 +194,26 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
     margin-top: 100px;
     margin-bottom: 100px;
   }
+
+  .empresasparceiras{
+   margin: 15px;
+  }
+
+  .PARCERIAS img{
+    width: 45px;
+    height: 45px;
+  }
   h1,h2{
-    font-size: 27px ;
+    font-size: 25px;
   }
 
   .titulo{
     font-size: 27px !important;
+  }
+
+  .paragrafo{
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
 
   .unidadesimg{
@@ -244,7 +258,7 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
     text-align: right;
   }
   .empresasparceiras{
-   margin: 20px;
+   margin: 40px;
   }
   .line {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
