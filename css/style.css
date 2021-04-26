@@ -159,12 +159,12 @@ a:link {
 
 .tecnologia{
    height: 500px;
-   transition: 2s ease-in-out;
+   transition: 2s ease-in-out !important;
    filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.250));
 }
 
 .tecnologia:hover{
-transition: 2s ease-out;
+transition: 2s ease-out  !important;
 filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
 
 }
@@ -175,6 +175,9 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
 
 /*MAX WIDTH DO SITE*/
 @media (max-width: 1000px) {
+    .slogan{
+   font-size: 60px;
+  }
   .imagemservico {
     width: 450px;
     height: 300px;
@@ -210,6 +213,7 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
 }
 /*MIN WIDTH DO SITE*/
 @media(min-width:1000px){
+
 .botaologin{
   display: inline-block;
   padding: 10px 20px;
