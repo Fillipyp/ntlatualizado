@@ -1,3 +1,8 @@
+@media(max-width:1000px){
+  .portfolio{
+    display: none;
+  }
+}
 :root{ 
   --verde: #38a3a5;
 }
