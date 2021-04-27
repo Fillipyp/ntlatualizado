@@ -53,6 +53,7 @@ h2 {
  
 }
 
+
 .progress {
   height: 300px;
   background-color: transparent;
@@ -192,15 +193,23 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
 
 .saibamais{
   
-   display:inline-block;
+   /* display:inline-block; */
    padding: 10px 20px;
    margin-top: 10px;
    font-size: 15px;
    border: 1px solid #38a3a5;
    background-color: #38a3a5;
-   color: #000;
-   transition: 1s ease-in-out;
+   color: #000 !important;
+   transition: 1s ease-in-out !important;
+  
 }
+
+.saibamais:hover{
+  transition: 1s ease-out;
+   background-color: #2f8385;
+}
+
+
 
 
 /*MAX WIDTH DO SITE*/
@@ -235,6 +244,14 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
   }
   h1,h2{
     font-size: 25px;
+  }
+  
+  .circle{
+    margin:0 5px;
+  }
+
+  .saibamais{
+    margin: 0 auto;
   }
 
   .titulo{
