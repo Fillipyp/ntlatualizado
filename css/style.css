@@ -23,10 +23,19 @@ body {
 }
 h1,
 h2 {
-  color: #e1e1e6;
+  color: #c2c2c2 ;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 40px;
+   
+}
+
+.color-title{
+   background: linear-gradient(
+271.28deg
+,#e0f9b8 -1.29%,#47e9ea 53.12%,#0e92ff 117.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
 }
 .sectioninicio{
   margin-top: 150px;
@@ -101,7 +110,22 @@ h3{
 }
 
 #proximasessao {
-  animation: seta 800ms steps(40) infinite normal;
+  animation: seta 1000ms steps(40) infinite normal;
+  animation-delay:1s;
+  opacity: 0;
+
+}
+@keyframes seta {
+  from {
+     height: 40px;
+    width: 40px;
+    opacity: 0;
+  }
+  to {
+     height: 43px; 
+    width: 43px;
+    opacity: 1;
+  }
 }
 
 .linha {
@@ -118,10 +142,10 @@ h3{
 }
 
 p {
- 
-  color: #a8a8b3;
+ font-family: 'Mulish', sans-serif;
+  color: #fff;
 }
-.marketing .col-lg-4 {
+.section-margin .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -141,37 +165,9 @@ a:link {
 }
 /*inicio servicos*/
 
-@keyframes seta {
-  from {
-    height: 40px;
-    width: 40px;
-  }
-  to {
-    height: 43px;
-    width: 43px;
-  }
-}
 
-#proximasessao {
-  animation: seta 1000ms steps(40) infinite normal;
-  animation-delay:4s;
-  opacity: 0;
 
-}
-@keyframes seta {
-  from {
-     height: 40px;
-    width: 40px;
-    opacity: 0;
-  }
-  to {
-     height: 43px; 
-    width: 43px;
-    opacity: 1;
-  }
-}
-
-.marketing .col-lg-4 p {
+.section-margin .col-lg-4 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
@@ -191,6 +187,8 @@ a:link {
 
 .tecnologia{
    height: 500px;
+   width: 600px;
+   margin: 0 auto;
    transition: 2s ease-in-out !important;
    filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.250));
 }
@@ -202,13 +200,16 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
 }
 
 .evolucao{
-  font-size: 60px;
-background: linear-gradient(
+  font-size: 65px;
+  background: linear-gradient(
 271.28deg
 ,#e0f9b8 -1.29%,#47e9ea 53.12%,#0e92ff 117.3%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+   
 }
+
 
 .circle{
   background-color: #38a3a5;
@@ -335,7 +336,7 @@ background: linear-gradient(
      background-color: transparent !important;
   border: 1px solid #38a3a5 !important;
 }
- .marketing {
+ .section-margin {
     margin-top: 150px;
     margin-bottom: 150px;
   }
