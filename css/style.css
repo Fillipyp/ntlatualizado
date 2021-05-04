@@ -14,61 +14,66 @@ body::-webkit-scrollbar-thumb:hover {
   background: #38a3a5;
 }
 
-:root{ 
+:root {
   --verde: #38a3a5;
 }
 body {
   background-image: linear-gradient(to right, black, rgb(34, 34, 37));
-  overflow-x: hidden;
 }
+
 h1,
 h2 {
-  color: #c2c2c2 ;
+  color: #c2c2c2;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 40px;
-   
 }
 
-.color-title{
-   background: linear-gradient(
-271.28deg
-,#e0f9b8 -1.29%,#47e9ea 53.12%,#0e92ff 117.3%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
+.color-title {
+  background: linear-gradient(
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.sectioninicio{
-  margin-top: 150px;
-    margin-bottom: 150px;
+.sectioninicio {
+  margin-top: 130px;
+  margin-bottom: 150px;
 }
-h3{
-  color: #38a3a5;
+h3 {
+  color: #c2c2c2;
   font-size: 30px;
 }
-.divescolha{
+.divescolha {
   margin-bottom: 200px;
-  margin-top:  200px;
+  margin-top: 200px;
 }
-.escolha{
+.escolha {
   /* margin-bottom: 150px; */
   margin-top: 30px;
   margin-bottom: 30px;
   background: linear-gradient(
-271.28deg
-,#e0f9b8 -1.29%,#47e9ea 53.12%,#0e92ff 117.3%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.paragrafoescolha{
+.paragrafoescolha {
   font-size: 20px;
 }
- a{
-   color: #a8a8b3;
- }
- a:hover{
-   color: #868691;
- }
+a {
+  color: #a8a8b3;
+}
+a:hover {
+  color: #868691;
+}
 
 .page-header {
   /* background-color: black; */
@@ -91,38 +96,36 @@ h3{
   display: block;
   width: 50%;
   padding: 200px;
- 
 }
-
 
 .progress {
   height: 300px;
   background-color: transparent;
 }
 
-.progress>svg {
+.progress > svg {
   height: 100%;
   display: block;
 }
 
-.nomeempresa img{
-  height: 50px; width: 130px;
+.nomeempresa img {
+  height: 60px;
+  width: 140px;
 }
 
 #proximasessao {
   animation: seta 1000ms steps(40) infinite normal;
-  animation-delay:1s;
+  animation-delay: 1s;
   opacity: 0;
-
 }
 @keyframes seta {
   from {
-     height: 40px;
+    height: 40px;
     width: 40px;
     opacity: 0;
   }
   to {
-     height: 43px; 
+    height: 43px;
     width: 43px;
     opacity: 1;
   }
@@ -134,17 +137,49 @@ h3{
   width: 80px;
 }
 
-.linhaunidade{
+.linhaunidade {
   margin-bottom: 20px;
-  border-bottom:3px solid #38a3a5 ;
+  border-bottom: 3px solid #38a3a5;
   width: 120px;
-
 }
+
+.nova{
+ color: #28B9F5;
+}
+
+.botao1 {
+  display: inline-block;
+  padding: 10px 60px;
+  margin: 0 15px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: 1px solid #28B9F5;
+  color: #38a3a5;
+  transition: 1s ease-in-out;
+}
+
+.ligue {
+  background-color: #28B9F5;
+  color: #000;
+}
+.botao1:hover {
+  background-color: #28B9F5;
+  color: #000;
+  transition: 0.7s ease-out;
+}
+
 
 p {
- font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   color: #fff;
 }
+
+.parceiros {
+  font-size: 22px;
+  color: rgb(125, 125, 125);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 .section-margin .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -158,14 +193,11 @@ a:link {
 }
 
 .slogan {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   color: white;
   font-size: 80px;
-  
 }
 /*inicio servicos*/
-
-
 
 .section-margin .col-lg-4 p {
   margin-right: 0.75rem;
@@ -176,7 +208,7 @@ a:link {
   margin: 5rem 0;
 }
 
-.servico1{
+.servico1 {
   margin-top: 50px;
 }
 
@@ -185,33 +217,32 @@ a:link {
   border-radius: 10px;
 }
 
-.tecnologia{
-   height: 500px;
-   width: 600px;
-   margin: 0 auto;
-   transition: 2s ease-in-out !important;
-   filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.250));
+.tecnologia {
+  height: 500px;
+  width: 600px;
+  margin: 0 auto;
+  transition: 2s ease-in-out !important;
+  filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.35));
 }
 
-.tecnologia:hover{
-transition: 2s ease-out  !important;
-filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
-
+.tecnologia:hover {
+  transition: 2s ease-out !important;
+  filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.08));
 }
 
-.evolucao{
+.evolucao {
   font-size: 65px;
   background: linear-gradient(
-271.28deg
-,#e0f9b8 -1.29%,#47e9ea 53.12%,#0e92ff 117.3%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-   
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-
-.circle{
+.circle {
   background-color: #38a3a5;
   color: white;
   display: inline-flex;
@@ -224,123 +255,138 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
   margin: 0 25px;
 }
 
-.pontospositivos{
+.pontospositivos {
   margin-top: 30px;
 }
 
-.saibamais{
-  
-   /* display:inline-block; */
-   padding: 10px 20px;
-   margin-top: 10px;
-   font-size: 15px;
-   border: 1px solid #38a3a5;
-   background-color: #38a3a5;
-   color: #000 !important;
-   transition: 1s ease-in-out !important;
-  
+.saibamais {
+  /* display:inline-block; */
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  border: 1px solid #38a3a5;
+  background-color: #38a3a5;
+  color: #000 !important;
+  transition: 1s ease-in-out !important;
 }
 
-.saibamais:hover{
+.saibamais:hover {
   transition: 1s ease-out;
-   background-color: #2f8385;
+  background-color: #2f8385;
 }
 
-
-
+.localidade {
+  font-size: 22px;
+  color: #c2c2c2;
+}
 
 /*MAX WIDTH DO SITE*/
 @media (max-width: 1000px) {
-  .sectioninicio{
+  .sectioninicio {
     margin-top: 150px;
   }
-    .slogan{
-   font-size: 60px;
+  .slogan {
+    font-size: 60px;
+  }
+  .botao1 {
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 0 15px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid #38a3a5;
+    color: #38a3a5;
+    transition: 1s ease-in-out;
+  }
+
+  .ligue {
+    background-color: #38a3a5;
+    color: #000;
+  }
+  .botao1:hover {
+    background-color: #38a3a5;
+    color: #000;
+    transition: 0.7s ease-out;
   }
   .imagemservico {
     width: 450px;
     height: 300px;
   }
-  .tecnologia{
-   height: 200px;
-   height: 200px;
+  .tecnologia {
+    height: 200px;
+    height: 200px;
   }
-  .evolucao{
+  .evolucao {
     font-size: 30px;
   }
 
-  .PARCERIAS{
+  .PARCERIAS {
     margin-top: 100px;
     margin-bottom: 100px;
   }
 
-  .empresasparceiras{
-   margin: 15px;
+  .empresasparceiras {
+    margin: 15px;
   }
 
-  .PARCERIAS img{
+  .PARCERIAS img {
     width: 45px;
     height: 45px;
   }
-  h1,h2{
+  h1,
+  h2 {
     font-size: 25px;
   }
-  
-  .circle{
-    margin:0 5px;
+
+  .circle {
+    margin: 0 5px;
   }
 
-  .saibamais{
+  .saibamais {
     margin: 0 auto;
   }
 
-  .titulo{
+  .titulo {
     font-size: 27px !important;
   }
 
-  .paragrafo{
-   
+  .paragrafo {
     margin-bottom: 40px;
     margin-top: 20px;
   }
 
-  .unidadesimg{
+  .unidadesimg {
     width: 150px;
   }
 
-  .sobre{
+  .sobre {
     margin-top: 100px;
   }
- 
 }
 /*MIN WIDTH DO SITE*/
-@media(min-width:1000px){
-
-.btnorcamento{
-  display: inline-block;
-  padding: 10px 40px;
-  width: 200px;
-  /* border: 1px solid #38a3a5 !important; */
-  background-color: #38a3a5;
-  text-align: center;
-  font-size: 15px !important;
-  border-radius: 30px;
-  color: #fff !important;
-  transition: 1s ease-in-out;
-  
-}
-.btnorcamento:hover{
-
-   transition: 1s ease-out;
-   color: #fff !important;
-     background-color: transparent !important;
-  border: 1px solid #38a3a5 !important;
-}
- .section-margin {
+@media (min-width: 1000px) {
+  .btnorcamento {
+    display: inline-block;
+    padding: 10px 40px;
+    width: 200px;
+    background-color: #38a3a5;
+    text-align: center;
+    font-size: 15px !important;
+    border-radius: 30px;
+    color: #000 !important;
+    transition: 1s ease-in-out;
+  }
+  .btnorcamento:hover {
+    transition: 1s ease-out;
+    color: #fff !important;
+    background-color: transparent !important;
+    border: 1px solid #38a3a5 !important;
+  }
+  .section-margin {
     margin-top: 150px;
     margin-bottom: 150px;
   }
-   .servico1 {
+  .servico1 {
     margin-bottom: 150px;
     margin-top: 100px;
   }
@@ -351,8 +397,8 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
     margin-top: 7rem;
     text-align: right;
   }
-  .empresasparceiras{
-   margin: 40px;
+  .empresasparceiras {
+    margin: 40px;
   }
   .line {
     border-right: 2px solid rgba(255, 255, 255, 0.75);
@@ -363,7 +409,6 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
   .typing-animation {
     animation: blinkCursor 500ms steps(40) infinite normal,
       typing 2.5s steps(40) 1s normal both;
-
   }
 
   @keyframes typing {
@@ -372,7 +417,6 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
     }
     to {
       width: 10em;
-
     }
   }
   @keyframes blinkCursor {
@@ -384,47 +428,42 @@ filter: drop-shadow(50px -60px 100px rgba(50, 224, 196, 0.08));
     }
   }
 
-  .subtitulo{
+  .subtitulo {
     font-size: 50px;
   }
-
 }
 
-.PARCERIAS  img{
+.PARCERIAS img {
   transition: 2s ease-in-out;
   filter: grayscale(80%);
 }
 
-.PARCERIAS  img:hover{
+.PARCERIAS img:hover {
   filter: grayscale(0%);
-transition: 1s ease-out;
-
+  transition: 1s ease-out;
 }
 
-
-.unidadesimg{
+.unidadesimg {
   transition: 0.5s ease-in-out;
   /* transform: 0.2s; */
   /* filter: grayscale(0%); */
-  
 }
-.unidadesimg:hover{
+.unidadesimg:hover {
   transition: 0.5s ease-out;
-   transform: scale(1.1);
-  
+  transform: scale(1.1);
 }
 
-.vermapa{
-   display:inline-block;
-   padding: 10px 20px;
-   font-size: 15px;
-   border-radius: 30px;
-   border: 1px solid #38a3a5;
-   color: #38a3a5;
-   transition: 1s ease-in-out;
+.vermapa {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: 1px solid #38a3a5;
+  color: #38a3a5;
+  transition: 1s ease-in-out;
 }
 
-.vermapa:hover{
+.vermapa:hover {
   background-color: #38a3a5;
   color: #000;
   transition: 0.7s ease-out;
@@ -432,15 +471,14 @@ transition: 1s ease-out;
 
 .btn {
   background-color: var(--verde);
-  
+
   color: white;
   font-size: 17px;
 }
-.btn:hover{
+.btn:hover {
   background-color: #4cbdbe;
   color: white;
 }
-
 
 /*botoes rede social*/
 .social-media {
@@ -478,32 +516,31 @@ transition: 1s ease-out;
 
 .social-media:nth-child(1) {
   border-color: #337c7e;
-  background-color: #1D1D20;
+  background-color: #1d1d20;
 }
 
 .social-media:nth-child(2) {
   border-color: #337c7e;
-  background-color: #1D1D20;
+  background-color: #1d1d20;
 }
 
 .social-media:nth-child(3) {
   border-color: #337c7e;
-  background-color: #1D1D20;
+  background-color: #1d1d20;
 }
 
 .social-media:hover {
-  border-radius: 1px;
+  border-radius: 30px;
   padding: 16px 60px;
   background-color: #38a3a5;
 }
 
-@media(max-width:1000px){
+@media (max-width: 1000px) {
   .social-media:hover {
-  border-radius: 2px;
-  padding: 16px 40px;
-  background-color: #38a3a5;
-}
-
+    border-radius: 30px;
+    padding: 16px 50px;
+    background-color: #38a3a5;
+  }
 }
 .social-media:hover i {
   transform: translateY(100px);
@@ -523,7 +560,7 @@ transition: 1s ease-out;
 
 .social-media:nth-child(2):hover span {
   color: #000;
-   font-size: 15px;
+  font-size: 15px;
 }
 .social-media:nth-child(2):hover img {
   opacity: 0;
@@ -531,13 +568,12 @@ transition: 1s ease-out;
 
 .social-media:nth-child(3):hover span {
   color: #000;
-   font-size: 15px;
+  font-size: 15px;
 }
 .social-media:nth-child(3):hover img {
   opacity: 0;
 }
 /*final botoes redes sociais*/
-
 
 .footer {
   background-color: #121214;
@@ -545,9 +581,10 @@ transition: 1s ease-out;
   font-size: 14px;
 }
 
-.footer, p{
+.footer,
+p {
   font-size: 15px;
 }
-.direitos  {
+.direitos {
   font-size: 12px;
 }
