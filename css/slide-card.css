@@ -70,7 +70,7 @@
 
 /* .custom-controls li.active {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(0.8);
 } */
 
 .card-trabalho {
@@ -91,6 +91,7 @@
 
 .card-trabalho h3 {
     margin: 5px;
+    font-size: 20px !important;
 }
 
 .card-trabalho p {
