@@ -48,7 +48,7 @@ h3 {
   font-size: 30px;
 }
 .divescolha {
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   margin-top: 200px;
 }
 .escolha {
@@ -328,6 +328,7 @@ a:link {
     margin-bottom: 100px;
   }
 
+
   .empresasparceiras {
     margin: 15px;
   }
@@ -335,6 +336,11 @@ a:link {
   .PARCERIAS img {
     width: 45px;
     height: 45px;
+  }
+
+  .divescolha{
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
   h1,
   h2 {
