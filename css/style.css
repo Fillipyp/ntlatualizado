@@ -21,6 +21,10 @@ body {
   background-image: linear-gradient(to right, black, rgb(34, 34, 37));
 }
 
+.pessoas{
+  width: 400px;
+  height: 400px;
+}
 h1,
 h2 {
   color: #c2c2c2;
@@ -40,7 +44,7 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 .sectioninicio {
-  margin-top: 130px;
+  margin-top: 110px;
   margin-bottom: 150px;
 }
 h3 {
@@ -109,8 +113,8 @@ a:hover {
 }
 
 .nomeempresa img {
-  height: 60px;
-  width: 140px;
+  height: 50px;
+  width: 180px;
 }
 
 #proximasessao {
@@ -143,6 +147,15 @@ a:hover {
   width: 120px;
 }
 
+
+.linha-gradiente {
+  height: 5px;
+  width: 200px;
+  background: linear-gradient(97.28deg, #28B9F5 11.51%, rgba(2, 255, 220, 0.83154) 61.42%);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
 .nova {
   color: #28b9f5;
 }
@@ -159,16 +172,27 @@ a:hover {
 }
 
 .ligue {
-  background-color: #28b9f5;
+ background: linear-gradient(97.28deg, #28B9F5 11.51%, rgba(2, 255, 220, 0.83154) 61.42%);
   color: #000;
 }
 
 .ligue:hover {
-  background-color: #1b7eb8 !important;
+     background-color: #2496c7 !important;   
+}
+.filiasparagrafo{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.filias1, .filias2{
+  margin-left: 60px;
 }
 .botao1:hover {
   background-color: #28b9f5;
   color: #000;
+    background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
   transition: 0.7s ease-out;
 }
 
@@ -233,8 +257,9 @@ a:link {
   filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.08));
 }
 
-.evolucao {
-  font-size: 70px;
+.textoinicio {
+  font-size: 47px;
+
   background: linear-gradient(
     271.28deg,
     #e0f9b8 -1.29%,
@@ -244,6 +269,22 @@ a:link {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.evolucao{
+
+    font-size: 60px;
+
+  background: linear-gradient(
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 
 .circle {
   background-color: var(--verde);
@@ -319,8 +360,24 @@ a:link {
     height: 200px;
     height: 200px;
   }
-  .evolucao {
+  .card-4 {
+    width: 150px;
+    height: 150px;
+  }
+  .card-4 p {
+    color: #888888;
+    font-size: 10px;
+  }
+  .icone {
+    width: 30px;
+    height: 30px;
+  }
+  .textoinicio {
     font-size: 30px;
+  }
+
+  .evolucao{
+   font-size: 30px;
   }
 
   .PARCERIAS {
@@ -378,12 +435,13 @@ a:link {
     display: inline-block;
     padding: 10px 40px;
     width: 200px;
-    background: linear-gradient(93.84deg, #28B9F5 5.64%, #21D9DC 23.04%, #4FDCFC 49.67%, rgba(31, 199, 169, 0.89) 96.36%, #1DDFE2 99.82% );
+   background: linear-gradient(93.45deg, #13729A -10.25%, #3FD0A5 73.48%, #28B9F5 156.36%, rgba(37, 193, 196, 0) 209.9%);
+
 
     text-align: center;
     font-size: 15px !important;
     border-radius: 30px;
-    color: #000 !important;
+    color: #fff !important;
     transition: 1s ease-in-out;
   }
   .btnorcamento:hover {
@@ -393,13 +451,33 @@ a:link {
   
   }
   .section-margin {
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 150px;
   }
   .servico1 {
     margin-bottom: 150px;
     margin-top: 100px;
   }
+  .card-4 {
+  background-color: #131312;
+  border-radius: 10px;
+}
+
+.card-4 h4 {
+  color: #a7a7a6;
+}
+
+.card-4 p {
+  color: #888888;
+  font-size: 13px;
+}
+
+.icone {
+  opacity: 50%;
+  width: 40px;
+  height: 40px;
+}
+
   .featurette-heading {
     margin-top: 7rem;
     
@@ -599,3 +677,5 @@ p {
 .direitos {
   font-size: 12px;
 }
+
+
