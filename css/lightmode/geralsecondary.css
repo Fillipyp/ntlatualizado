@@ -1,0 +1,15 @@
+@import "mainlight.css";
+@import "timelinelight.css";
+@import "portfoliolight.css";
+@import "slide-cardlight.css";
+@import "stylelight.css";
+@import "scrollanimado.css";
+@import "demo/css/style.css";
+@import "../dist/aos.css";
+@import "./slide-card.css";
+@import "../assets/fonts/FuturaPTBold.otf";
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Scope+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
