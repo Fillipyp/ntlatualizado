@@ -1,0 +1,739 @@
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(39, 39, 38);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--verde);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--verde);
+}
+
+:root {
+  --verde: var(#38a3a5);
+}
+body {
+  background-image: linear-gradient(to right, black, rgb(34, 34, 37));
+}
+.troca-container {
+  margin: 10px;
+  margin-top: 25px;
+  width: 80px;
+}
+
+.troca {
+  visibility: hidden;
+  position: absolute;
+}
+
+.troca+label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.troca--sombra+label {
+  width: 60px;
+  height: 30px;
+  background-color: #2d2d2d;
+  border-radius: 60px;
+}
+
+.troca--sombra+label:before, .troca--sombra+label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+
+.troca--sombra+label:before {
+  right: 1px;
+  background-color: #2d2d2d;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+
+.troca--sombra+label:after {
+  width: 30px;
+  background-color: #d4fffe;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.troca--sombra:checked+label:before {
+  background-color: #32a8a5;
+}
+
+.troca--sombra:checked+label:after {
+  transform: translateX(30px);
+}
+.paragrafo{
+  font-size: 20px;
+}
+.pessoas{
+  width: 400px;
+  height: 400px;
+}
+h1,
+h2 {
+  color: #c2c2c2;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.color-title {
+  background: linear-gradient(
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sectioninicio {
+  margin-top: 110px;
+  margin-bottom: 150px;
+}
+h3 {
+  color: #c2c2c2;
+  font-size: 30px;
+}
+.divescolha {
+  margin-bottom: 150px;
+  margin-top: 200px;
+}
+.escolha {
+  /* margin-bottom: 150px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: linear-gradient(
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.paragrafoescolha {
+  font-size: 20px;
+}
+a {
+  color: #a8a8b3;
+}
+a:hover {
+  color: #868691;
+}
+
+.page-header {
+  /* background-color: black; */
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 700vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carregar {
+  margin: auto;
+  height: 100%;
+  display: block;
+  width: 50%;
+  padding: 200px;
+}
+
+.progress {
+  height: 300px;
+  background-color: transparent;
+}
+
+.progress > svg {
+  height: 100%;
+  display: block;
+}
+
+.nomeempresa img {
+  height: 50px;
+  width: 180px;
+}
+
+#proximasessao {
+  animation: seta 1000ms steps(40) infinite normal;
+  animation-delay: 1s;
+  opacity: 0;
+}
+@keyframes seta {
+  from {
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+  }
+  to {
+    height: 43px;
+    width: 43px;
+    opacity: 1;
+  }
+}
+
+.linha {
+  margin-bottom: 25px;
+  border-top: 3px solid var(--verde);
+  width: 80px;
+}
+
+.linhaunidade {
+  margin-bottom: 20px;
+  border-bottom: 3px solid var(--verde);
+  width: 120px;
+}
+
+
+.linha-gradiente {
+  height: 5px;
+  width: 200px;
+  background: linear-gradient(97.28deg, #28B9F5 11.51%, rgba(2, 255, 220, 0.83154) 61.42%);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.nova {
+  color: #28b9f5;
+}
+
+.botao1 {
+  display: inline-block;
+  padding: 10px 60px;
+  margin: 0 15px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: 1px solid #28b9f5;
+  color: var(--verde);
+  transition: 1s ease-in-out;
+}
+
+.ligue {
+ background: linear-gradient(97.28deg, #28B9F5 11.51%, rgba(2, 255, 220, 0.83154) 61.42%);
+  color: #000;
+}
+
+.ligue:hover {
+     background-color: #2496c7 !important;   
+}
+.filiasparagrafo{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.filias1, .filias2{
+  margin-left: 60px;
+}
+.botao1:hover {
+  background-color: #28b9f5;
+  color: #000;
+    background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+  transition: 0.7s ease-out;
+}
+
+p {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+}
+
+.parceiros {
+  font-size: 22px;
+  color: rgb(125, 125, 125);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.section-margin .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.bg_video {
+  position: absolute;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.slogan {
+  font-family: "Merriweather", serif;
+  color: white;
+  font-size: 80px;
+}
+/*inicio servicos*/
+
+.section-margin .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.barradivisao-divider {
+  margin: 5rem 0;
+}
+
+.servico1 {
+  margin-top: 50px;
+}
+
+.imagemservico {
+  height: 400px;
+  border-radius: 10px;
+}
+
+.tecnologia {
+  height: 500px;
+  width: 600px;
+  margin: 0 auto;
+  transition: 2s ease-in-out !important;
+  filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.35));
+}
+
+.tecnologia:hover {
+  transition: 2s ease-out !important;
+  filter: drop-shadow(50px -30px 150px rgba(50, 224, 196, 0.08));
+}
+
+.textoinicio {
+  font-size: 47px;
+
+  background: linear-gradient(
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.evolucao{
+
+    font-size: 60px;
+
+  background: linear-gradient(
+    271.28deg,
+    #e0f9b8 -1.29%,
+    #47e9ea 53.12%,
+    #0e92ff 117.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.circle {
+  background-color: var(--verde);
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid var(--verde);
+  margin: 0 25px;
+}
+
+.pontospositivos {
+  margin-top: 30px;
+}
+
+.saibamais {
+  /* display:inline-block; */
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  border: 1px solid var(--verde);
+  background-color: var(--verde);
+  color: #000 !important;
+  transition: 1s ease-in-out !important;
+}
+
+.saibamais:hover {
+  transition: 1s ease-out;
+  background-color: #2f8385;
+}
+
+.localidade {
+  font-size: 22px;
+  color: #c2c2c2;
+}
+
+/*MAX WIDTH DO SITE*/
+@media (max-width: 1000px) {
+  .sectioninicio {
+    margin-top: 150px;
+  }
+  .slogan {
+    font-size: 60px;
+  }
+  .botao1 {
+    display: inline-block;
+    padding: 10px 35px;
+    margin: 0 15px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: 1px solid var(--verde);
+    color: var(--verde);
+    transition: 1s ease-in-out;
+  }
+
+  .ligue {
+    background-color: var(--verde);
+    color: #000;
+  }
+  .botao1:hover {
+    background-color: var(--verde);
+    color: #000;
+    transition: 0.7s ease-out;
+  }
+  .imagemservico {
+    width: 450px;
+    height: 300px;
+  }
+  .tecnologia {
+    height: 200px;
+    height: 200px;
+  }
+ .card-4 {
+    width: 150px;
+    height: 150px;
+  }
+  .card-4 p {
+    color: #888888;
+    font-size: 10px;
+  }
+  .icone {
+    width: 30px;
+    height: 30px;
+  }
+  .textoinicio {
+    font-size: 30px;
+  }
+
+  .evolucao{
+   font-size: 30px;
+  }
+
+  .PARCERIAS {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+
+  .empresasparceiras {
+    margin: 15px;
+  }
+
+  .PARCERIAS img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .divescolha{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  h1,
+  h2 {
+    font-size: 25px;
+  }
+
+  .circle {
+    margin: 0 5px;
+  }
+
+  .saibamais {
+    margin: 0 auto;
+  }
+
+  .titulo {
+    font-size: 27px !important;
+  }
+
+  .paragrafo {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  .unidadesimg {
+    width: 150px;
+  }
+
+  .sobre {
+    margin-top: 100px;
+  }
+}
+/*MIN WIDTH DO SITE*/
+@media (min-width: 1000px) {
+  .btnorcamento {
+    display: inline-block;
+    padding: 10px 40px;
+    width: 200px;
+   background: linear-gradient(93.45deg, #13729A -10.25%, #3FD0A5 73.48%, #28B9F5 156.36%, rgba(37, 193, 196, 0) 209.9%);
+
+
+    text-align: center;
+    font-size: 15px !important;
+    border-radius: 30px;
+    color: #fff !important;
+    transition: 1s ease-in-out;
+  }
+  .btnorcamento:hover {
+    transition: 1s ease-out;
+    color: #fff !important;
+    background-color: transparent !important;
+  
+  }
+  .section-margin {
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .servico1 {
+    margin-bottom: 150px;
+    margin-top: 100px;
+  }
+ .card-4 {
+  /* background-color: #272726; */
+  border-radius: 10px;
+}
+
+.card-4 h4 {
+  color: #a7a7a6;
+}
+
+.card-4 p {
+  color: #888888;
+  font-size: 10px;
+}
+
+.icone {
+  opacity: 50%;
+  width: 40px;
+  height: 40px;
+}
+  .featurette-heading {
+    margin-top: 7rem;
+    
+  }
+  .featurette-heading-lado {
+    margin-top: 7rem;
+    text-align: right;
+  }
+  .empresasparceiras {
+    margin: 40px;
+  }
+  .line {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+      typing 2.5s steps(40) 1s normal both;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 10em;
+    }
+  }
+  @keyframes blinkCursor {
+    from {
+      border-right-color: rgba(129, 129, 129, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  .subtitulo {
+    font-size: 50px;
+  }
+}
+
+.PARCERIAS img {
+  transition: 2s ease-in-out;
+  filter: grayscale(80%);
+}
+
+.PARCERIAS img:hover {
+  filter: grayscale(0%);
+  transition: 1s ease-out;
+}
+
+.unidadesimg {
+  transition: 0.5s ease-in-out;
+  /* transform: 0.2s; */
+  /* filter: grayscale(0%); */
+}
+.unidadesimg:hover {
+  transition: 0.5s ease-out;
+  transform: scale(1.1);
+}
+
+.vermapa {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: 1px solid var(--verde);
+  color: var(--verde);
+  transition: 1s ease-in-out;
+}
+
+.vermapa:hover {
+  background-color: var(--verde);
+  color: #000;
+  transition: 0.7s ease-out;
+}
+
+.btn {
+  background-color: var(--verde);
+
+  color: white;
+  font-size: 17px;
+}
+.btn:hover {
+  background-color: #4cbdbe;
+  color: white;
+}
+
+/*botoes rede social*/
+.social-media {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin: 0 25px;
+  position: relative;
+  transition: all 0.3s;
+  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0, 15);
+}
+.social-media img {
+  width: 23px;
+  height: 23px;
+}
+
+.social-media i {
+  font-size: 40px;
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.social-media span {
+  position: absolute;
+  transform: translateY(-100px);
+  text-transform: uppercase;
+  font-family: "Raleway";
+  transition: all 0.3s;
+}
+
+.social-media:nth-child(1) {
+  border-color: #337c7e;
+  background-color: #1d1d20;
+}
+
+.social-media:nth-child(2) {
+  border-color: #337c7e;
+  background-color: #1d1d20;
+}
+
+.social-media:nth-child(3) {
+  border-color: #337c7e;
+  background-color: #1d1d20;
+}
+
+.social-media:hover {
+  border-radius: 30px;
+  padding: 16px 60px;
+  background-color: var(--verde);
+}
+
+@media (max-width: 1000px) {
+  .social-media:hover {
+    border-radius: 30px;
+    padding: 16px 50px;
+    background-color: var(--verde);
+  }
+}
+.social-media:hover i {
+  transform: translateY(100px);
+}
+
+.social-media:hover span {
+  transform: translateY(0);
+}
+
+.social-media:nth-child(1):hover span {
+  color: #000;
+  font-size: 15px;
+}
+.social-media:nth-child(1):hover img {
+  opacity: 0;
+}
+
+.social-media:nth-child(2):hover span {
+  color: #000;
+  font-size: 15px;
+}
+.social-media:nth-child(2):hover img {
+  opacity: 0;
+}
+
+.social-media:nth-child(3):hover span {
+  color: #000;
+  font-size: 15px;
+}
+.social-media:nth-child(3):hover img {
+  opacity: 0;
+}
+/*final botoes redes sociais*/
+
+.footer {
+  background-color: #121214;
+  color: rgb(221, 221, 221);
+  font-size: 14px;
+}
+
+.footer,
+p {
+  font-size: 15px;
+}
+.direitos {
+  font-size: 12px;
+}
+
+
