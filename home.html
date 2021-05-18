@@ -8,7 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/geral.css">
+  <link rel="stylesheet" href="css/lightmode/geralsecondary.css">
+  <link rel="stylesheet" href="css/darkmode/geral.css" id="dark-theme">
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 
@@ -47,11 +48,15 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contato">CONTATOS</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="homelight.html">LIGHT</a>
-            </li>
+
             <li class="nav-item ">
-              <a class="nav-link js-scroll-trigger " href="login.html">LOGIN</a>
+              <a class="nav-link js-scroll-trigger  " href="login.html">LOGIN</a>
+            </li>
+            <li class="nav-item">
+              <div class="troca-container ">
+                <input id="troca-sombra" class="troca troca--sombra btn-toggle" type="checkbox">
+                <label for="troca-sombra" class=""></label>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger btnorcamento" href="login.html">Faça um orçamento</a>
@@ -61,8 +66,8 @@
       </div>
     </nav>
     <section class="sectioninicio container">
-      <div class="page-header " id="inicio">
-        <div class="row featurette servico1" style="margin-top: 10px;">
+      <div class="page-header  " id="inicio">
+        <div class="row featurette servico1 container" style="margin-top: 10px;">
           <div class="col-md-6 order-xs-3" data-aos="fade-down" data-aos-duration="1000">
             <h2 class="featurette-heading textoinicio" style="font-weight: 500;">
               NTL: extraindo o melhor da relação entre a tecnologia e o ser humano.
@@ -71,12 +76,12 @@
               Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
               ligula porta felis euismod semper.
             </p>
-            <div class="col-xs-12">
+            <div class="botoeslogan col-xs-12">
               <a href="#" target="blank" class="botao1 ligue">LIGUE JÁ</a>
               <a href="#" target="blank" class="botao1">CADASTRO</a>
             </div>
             <p class="filiasparagrafo">Filias</p>
-            <div class="col-xs-12 mt-2 ms-4">
+            <div class="col-xs-12 mt-2 ms-4 mb-5">
               <a href="https://google.com" target="_blank"><img src="img/Group 76.png"></a>
               <a href="https://apple.com" target="_blank"><img src="img/Group 77.png" class="filias1"></a>
               <a href="https://facebook.com" target="_blank"><img src="img/Group 78.png" class="filias2"></a>
@@ -120,76 +125,76 @@
             felis euismod semper. Praesent commodo
             cursus magna, vel</p>
         </div>
-      <div class="pt-5 container marketing">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading  color-title">
-              Conexão é a chave para maiores oportunidades.
-            </h2>
-            <div class="linha-gradiente"></div>
-      
-            <p>
-              Oferecemos suporte para você e para sua empresa.
-              <br />Você só precisa marcar uma revisão pela área de <a class="destacar" href="#contato">
-                contato</a>,
-              <br />aguardar o retorno e nos damos seu orçamento, seja para sua
-              <br />empresa ou para seu suporte pessoal.
-            </p>
-          </div>
-      
-          <div class="col-md-5">
-            <div class="row col-xs-12">
-              <div class="col col-xs-6">
-                <div class="card-4 mb-4">
-                  <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
-                  <div class="card-body">
-                    <h4 class="">Home<br>insurance</h4>
-                    <p class="">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col col-xs-6">
-                <div class="card-4 mb-4">
-                  <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
-                  <div class="card-body">
-                    <h4 class="">Home<br>insurance</h4>
-                    <p class="">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
+        <div class="pt-5 container marketing">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading  color-title">
+                Conexão é a chave para maiores oportunidades.
+              </h2>
+              <div class="linha-gradiente"></div>
+
+              <p class="paragrafo">
+                Oferecemos suporte para você e para sua empresa.
+                <br />Você só precisa marcar uma revisão pela área de <a class="destacar" href="#contato">
+                  contato</a>,
+                <br />aguardar o retorno e nos damos seu orçamento, seja para sua
+                <br />empresa ou para seu suporte pessoal.
+              </p>
             </div>
-      
-            <div class="row col-xs-12">
-              <div class="col col-xs-6">
-                <div class="card-4 mb-4">
-                  <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
-                  <div class="card-body">
-                    <h4 class="">Home<br>insurance</h4>
-                    <p class="">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
+
+            <div class="col-md-5">
+              <div class="row col-xs-12">
+                <div class="col col-xs-6">
+                  <div class="card-4 mb-4">
+                    <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
+                    <div class="card-body">
+                      <h4 class="">Home<br>insurance</h4>
+                      <p class="">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-xs-6">
+                  <div class="card-4 mb-4">
+                    <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
+                    <div class="card-body">
+                      <h4 class="">Home<br>insurance</h4>
+                      <p class="">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="col col-xs-6">
-                <div class="card-4 mb-4">
-                  <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
-                  <div class="card-body">
-                    <h4 class="">Home<br>insurance</h4>
-                    <p class="">Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
+
+              <div class="row col-xs-12">
+                <div class="col col-xs-6">
+                  <div class="card-4 mb-4">
+                    <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
+                    <div class="card-body">
+                      <h4 class="">Home<br>insurance</h4>
+                      <p class="">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-xs-6">
+                  <div class="card-4 mb-4">
+                    <div class="card-header"><span><img src="img/dashboard.png" class="icone"></span></div>
+                    <div class="card-body">
+                      <h4 class="">Home<br>insurance</h4>
+                      <p class="">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
     </section>
     <section class="oquefazemos container" id="oquefazemos">
