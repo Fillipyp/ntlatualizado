@@ -1,9 +1,4 @@
 
-addEventListener("scroll", function(scrolapagina){
-  console.log(scrolapagina)
-});
-
-
 const btn = document.querySelector(".btn-toggle");
 // Select the stylesheet <link>
 const theme = document.querySelector("#dark-theme");
